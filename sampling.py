@@ -2,6 +2,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 from tqdm import tqdm
+import this
 
 class Sampling:
     def __init__(self, model, X_train, y_train, X_test, y_test):
